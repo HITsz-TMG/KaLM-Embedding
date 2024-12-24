@@ -18,7 +18,7 @@ conda activate kalm
 ```
 
 
-### :fire: Hard-negative Mining with Filtering
+### :pick: Hard-negative Mining with Filtering
 ```
 bash ./scripts/hn_mine.sh
 ```
@@ -38,7 +38,7 @@ bash ./scripts/eval_mteb.sh
 ```
 
 
-## Acknowledgements
+## :loudspeaker: Acknowledgements
 
 Specifically, our training code was forked from [FlagOpen/FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding/tree/1.1/FlagEmbedding/baai_general_embedding/finetune). We have made modifications to suit our specific needs, but the core functionality and structure are derived from their excellent work.
 Please check out their repository for more details!
