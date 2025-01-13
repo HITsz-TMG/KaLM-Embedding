@@ -1,8 +1,9 @@
 <h1 align="center">KaLM-Embedding</h1>
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
   <img src="./imgs/kalm_logo.png" alt="kalm_logo" width="30%">
-</div>
+</div> -->
+![kalm_logo](./imgs/kalm_logo.png)
 
 <div align="center">
 
