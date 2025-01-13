@@ -1,7 +1,7 @@
 <h1 align="center">KaLM-Embedding</h1>
 
 <div style="text-align: center;">
-  <img src="./imgs/kalm_logo.jpg" alt="kalm_logo" width="10%" style="display: block; margin: 10 auto;">
+  <img src="./imgs/kalm_logo.jpg" alt="kalm_logo" width="30%" style="display: block; margin: 10 auto;">
 </div>
 
 
