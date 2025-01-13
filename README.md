@@ -23,7 +23,7 @@ For a more comprehensive understanding of the technical details, please refer to
 
 ## :computer: Usage
 
-### :rainbow: Environment
+### :rainbow: Environment:
 
 ```
 conda env create -f environment.yaml
@@ -31,20 +31,20 @@ conda activate kalm
 ```
 
 
-### :pick: Hard-negative Mining with Filtering
+### :pick: Hard-negative Mining with Filtering:
 ```
 bash ./scripts/hn_mine.sh
 ```
 You can customize the `filter_topk` parameter to set the threshold of ranking consistency filtering.
 
 
-### :fire: Train
+### :fire: Train:
 ```
 bash ./scripts/train.sh
 ```
 
 
-### :bar_chart: Evaluation
+### :bar_chart: Evaluation:
 We have provided a code for evaluating MTEB using multiple GPUs, which allocates each task from the task set to a single GPU in a queue-based manner, thereby enhancing evaluation efficiency.
 ```
 bash ./scripts/eval_mteb.sh
