@@ -1,14 +1,7 @@
-<!-- <h1 align="center">KaLM-Embedding</h1>
+<h1 align="center">KaLM-Embedding</h1>
 
 <div style="text-align: center;">
-  <img src="./imgs/kalm_logo.jpg" alt="kalm_logo" width="10%">
-</div> -->
-
-<div style="display: flex; align-items: center;">
-  <div style="margin-right: 0;">
-    <img src="./imgs/kalm_logo.jpg" alt="kalm_logo" width="10%">
-  </div>
-  <h1 style="margin-left: 0;">KaLM-Embedding</h1>
+  <img src="./imgs/kalm_logo.jpg" alt="kalm_logo" width="10%" style="display: block; margin: 10 auto;">
 </div>
 
 
