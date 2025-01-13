@@ -3,7 +3,7 @@
 <!-- <div style="text-align: center;">
   <img src="./imgs/kalm_logo.png" alt="kalm_logo" width="30%">
 </div> -->
-![kalm_logo](./imgs/kalm_logo.png)
+![kalm_logo](./imgs/kalm_logo.jpg)
 
 <div align="center">
 
