@@ -38,6 +38,16 @@ We have provided a code for evaluating MTEB using multiple GPUs, which allocates
 bash ./scripts/eval_mteb.sh
 ```
 
+Below, we present a portion of the results from the MTEB study. For a more comprehensive analysis, please refer to our technical report.
+| Model Name | Model Size | MTEB(zh) | MTEB(en) | MTEB(fr) | MTEB(pl) | avg
+|:----:|:---:|:---:|:---:|:---:|:---:|:---:| 
+| [multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large) | 560M | 58.54 | 60.89 | 55.64 | 60.08 | 58.79
+| [bge-m3 (dense)](https://huggingface.co/BAAI/bge-m3) | 560M | 61.07 | 59.57 | 58.79 | **60.35** | 59.95
+| [gte-multilingual-base (dense)](https://huggingface.co/Alibaba-NLP/gte-multilingual-base) | **305M** | 62.72 | 61.40 | 59.79 | 58.22 | 60.53
+| [KaLM-embedding-multilingual-mini-v1](https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-v1) | 494M | 62.31 | 61.87 | 60.59 | 54.79 | 59.89
+| [KaLM-embedding-multilingual-mini-instruct-v1](https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v1) | 494M | 63.57 | 64.74 | **64.04** | 58.16 | **62.62**
+| [KaLM-embedding-multilingual-mini-instruct-v1.5](https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v1.5) | 494M | **64.13** | **64.94** | 63.08 | 57.05 | 62.3
+
 
 ## :loudspeaker: Acknowledgements
 
