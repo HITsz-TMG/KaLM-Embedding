@@ -38,7 +38,7 @@ bash ./scripts/hn_mine.sh
 You can customize the `filter_topk` parameter to set the threshold of ranking consistency filtering.
 
 
-### :fire: Train:
+### :fire: Training:
 ```
 bash ./scripts/train.sh
 ```
