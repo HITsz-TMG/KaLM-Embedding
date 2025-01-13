@@ -1,6 +1,11 @@
 # KaLM-Embedding
 
 
+<div align="center">
+  [Overview](https://github.com/HITsz-TMG/KaLM-Embedding?tab=readme-ov-file#sparkles-overview) | [Usage](https://github.com/HITsz-TMG/KaLM-Embedding?tab=readme-ov-file#computer-usage) | [Acknowledgements](https://github.com/HITsz-TMG/KaLM-Embedding?tab=readme-ov-file#loudspeaker-acknowledgements) | [Citation](https://github.com/HITsz-TMG/KaLM-Embedding?tab=readme-ov-file#link-citation) | [License](https://github.com/HITsz-TMG/KaLM-Embedding?tab=readme-ov-file#scroll-license)
+</div>
+
+
 
 ## :sparkles: Overview
 
