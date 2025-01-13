@@ -1,10 +1,13 @@
-# KaLM-Embedding
+<h1 align="center">KaLM-Embedding</h1>
 
+<div style="text-align: center;">
+  <img src="./imgs/kalm_logo.png" alt="kalm_logo" width="30%">
+</div>
 
 <div align="center">
 
   [Overview](https://github.com/HITsz-TMG/KaLM-Embedding/tree/main?tab=readme-ov-file#sparkles-overview) | [Usage](https://github.com/HITsz-TMG/KaLM-Embedding/tree/main?tab=readme-ov-file#computer-usage) | [Acknowledgements](https://github.com/HITsz-TMG/KaLM-Embedding/tree/main?tab=readme-ov-file#loudspeaker-acknowledgements) | [Citation](https://github.com/HITsz-TMG/KaLM-Embedding/tree/main?tab=readme-ov-file#link-citation) | [License](https://github.com/HITsz-TMG/KaLM-Embedding/tree/main?tab=readme-ov-file#scroll-license)
-  
+
 </div>
 
 
@@ -12,6 +15,7 @@
 ## :sparkles: Overview
 
 Code for training and evaluation of our [KaLM-Embedding](https://huggingface.co/collections/HIT-TMG/kalm-embedding-67316afa4c56f4fc1f58764b) models.
+
 For a more comprehensive understanding of the technical details, please refer to our paper [KaLM-Embedding: Superior Training Data Brings A Stronger Embedding Model](https://arxiv.org/abs/2501.01028).
 
 
