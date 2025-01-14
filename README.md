@@ -5,11 +5,11 @@
 </div>
 
 
-<div align="center">
+<h4 align="center">
 
   [Overview](https://github.com/HITsz-TMG/KaLM-Embedding/tree/main?tab=readme-ov-file#sparkles-overview) | [Usage](https://github.com/HITsz-TMG/KaLM-Embedding/tree/main?tab=readme-ov-file#computer-usage) | [Acknowledgements](https://github.com/HITsz-TMG/KaLM-Embedding/tree/main?tab=readme-ov-file#loudspeaker-acknowledgements) | [Citation](https://github.com/HITsz-TMG/KaLM-Embedding/tree/main?tab=readme-ov-file#link-citation) | [License](https://github.com/HITsz-TMG/KaLM-Embedding/tree/main?tab=readme-ov-file#scroll-license)
 
-</div>
+</h4>
 
 
 
@@ -19,6 +19,15 @@ Code for training and evaluation of our [KaLM-Embedding](https://huggingface.co/
 
 For a more comprehensive understanding of the technical details, please refer to our paper [KaLM-Embedding: Superior Training Data Brings A Stronger Embedding Model](https://arxiv.org/abs/2501.01028).
 
+
+## :zap: Feature
+
+- Training
+  - Ranking Consistency Filtering
+  - Semi-homogeneous Task Batching
+  - Matryoshka Representation Learning
+- Evaluation
+  - Multi-GPU Asynchronous Computation
 
 
 ## :computer: Usage
@@ -31,7 +40,7 @@ conda activate kalm
 ```
 
 
-### :pick: Hard-negative Mining with Filtering:
+### :pick: Hard-negative Mining (with Filtering):
 ```
 bash ./scripts/hn_mine.sh
 ```
