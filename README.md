@@ -17,8 +17,15 @@
 
 Code for training and evaluation of our [KaLM-Embedding](https://huggingface.co/collections/HIT-TMG/kalm-embedding-67316afa4c56f4fc1f58764b) models.
 
-For a more comprehensive understanding of the technical details, please refer to our paper [KaLM-Embedding: Superior Training Data Brings A Stronger Embedding Model](https://arxiv.org/abs/2501.01028).
+Pretraining data: [HIT-TMG/KaLM-embedding-pretrain-data
+](https://huggingface.co/datasets/HIT-TMG/KaLM-embedding-pretrain-data)
 
+Technical Reports: [KaLM-Embedding-V2: Superior Training Techniques and Data Inspire A Versatile Embedding Model
+](https://arxiv.org/abs/2506.20923) and [KaLM-Embedding: Superior Training Data Brings A Stronger Embedding Model](https://arxiv.org/abs/2501.01028).
+
+KaLM-Embedding-V1.5: [HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v1.5](https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v1.5)
+
+KaLM-Embedding-V2: [HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v2](https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v2)
 
 ## :zap: Features
 
@@ -59,15 +66,17 @@ We have provided a code for evaluating MTEB using multiple GPUs, which allocates
 bash ./scripts/eval_mteb.sh
 ```
 
+## :mag: Results
 Below, we present a portion of the results from the MTEB study. For a more comprehensive analysis, please refer to our technical report.
-| Model Name | Model Size | MTEB(zh) | MTEB(en) | MTEB(fr) | MTEB(pl) | avg
-|:----:|:---:|:---:|:---:|:---:|:---:|:---:| 
-| [multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large) | 560M | 58.54 | 60.89 | 55.64 | 60.08 | 58.79
-| [bge-m3 (dense)](https://huggingface.co/BAAI/bge-m3) | 560M | 61.07 | 59.57 | 58.79 | **60.35** | 59.95
-| [gte-multilingual-base (dense)](https://huggingface.co/Alibaba-NLP/gte-multilingual-base) | **305M** | 62.72 | 61.40 | 59.79 | 58.22 | 60.53
-| [KaLM-embedding-multilingual-mini-v1](https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-v1) | 494M | 62.31 | 61.87 | 60.59 | 54.79 | 59.89
-| [KaLM-embedding-multilingual-mini-instruct-v1](https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v1) | 494M | 63.57 | 64.74 | **64.04** | 58.16 | **62.62**
-| [KaLM-embedding-multilingual-mini-instruct-v1.5](https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v1.5) | 494M | **64.13** | **64.94** | 63.08 | 57.05 | 62.3
+
+### Overall results on MTEB (cmn, v1) and MTEB (eng, v1).
+![overall](./imgs/overall.jpg)
+
+### Detailed model performance on MTEB (cmn, v1).
+![mteb_cmn](./imgs/mteb_cmn.jpg)
+
+### Detailed model performance on MTEB (eng, v1).
+![mteb_cmn](./imgs/mteb_eng.jpg)
 
 
 ## :loudspeaker: Acknowledgements
@@ -78,17 +87,28 @@ Please check out their repository for more details!
 
 
 ## :link: Citation
-Please cite the repo if you use the model or code in this repo.
-
+If you find this model useful, please consider giving a star and citation.
 ```
-@article{hu2025kalm,
-  title={KaLM-Embedding: Superior Training Data Brings A Stronger Embedding Model},
-  author={Hu, Xinshuo and Shan, Zifei and Zhao, Xinping and Sun, Zetian and Liu, Zhenyu and Li, Dongfang and Ye, Shaolin and Wei, Xinyuan and Chen, Qian and Hu, Baotian and others},
-  journal={arXiv preprint arXiv:2501.01028},
-  year={2025}
+@misc{zhao2025kalmembeddingv2,
+      title={KaLM-Embedding-V2: Superior Training Techniques and Data Inspire A Versatile Embedding Model}, 
+      author={Xinping Zhao and Xinshuo Hu and Zifei Shan and Shouzheng Huang and Yao Zhou and Zetian Sun and Zhenyu Liu and Dongfang Li and Xinyuan Wei and Qian Chen and Youcheng Pan and Yang Xiang and Meishan Zhang and Haofen Wang and Jun Yu and Baotian Hu and Min Zhang},
+      year={2025},
+      eprint={2506.20923},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.20923}, 
+}
+
+@misc{hu2025kalmembedding,
+  title={KaLM-Embedding: Superior Training Data Brings A Stronger Embedding Model}, 
+  author={Xinshuo Hu and Zifei Shan and Xinping Zhao and Zetian Sun and Zhenyu Liu and Dongfang Li and Shaolin Ye and Xinyuan Wei and Qian Chen and Baotian Hu and Haofen Wang and Jun Yu and Min Zhang},
+  year={2025},
+  eprint={2501.01028},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2501.01028}, 
 }
 ```
-
 
 
 ## :scroll: License
